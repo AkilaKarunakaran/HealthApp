@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form method="POST" action="/update/{{ patient[0] }}">
+    <input type="text" name="name" value="{{ patient[1] }}" class="form-control mb-2">
+    <input type="email" name="email" value="{{ patient[3] }}" class="form-control mb-2">
+    <button class="btn btn-success">Update</button>
+</form>
+</body>
+</html>
